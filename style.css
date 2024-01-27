@@ -1,0 +1,113 @@
+h1 {
+    margin: 0;
+    background-color: #4682b4;
+    padding: 10px 20px;
+}
+body {
+    background-color: black;
+}
+h2 {
+    width: 18.5%;
+    float: left;
+    text-align: center;
+    background-color: gray;
+    margin: .25%;
+    padding: 5px 0px
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: white
+}
+
+.header-bar {
+    margin: 5px auto;
+    padding: 10px 5px;
+    display: inline-block;
+    width: 100%;
+    background-color: #4682b4
+}
+
+.textbox {
+    display: inline-block;
+    margin: auto;
+    width: 75%;
+    padding: 10px 20px;
+}
+
+.section {
+    background-color: #4169e1;
+    border-radius: 20px;
+    display: inline-block;
+    width: 80%;
+    margin: 2% 10%;
+    padding: 20px 10px;
+}
+
+.section-image {
+    width: 50%;
+    height: 20%;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+}
+.section-image-pair {
+    width: 30%;
+    height: 20%;
+    background-position: center center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: inline;
+    overflow: hidden;
+}
+
+.topic {
+    width: 33%;
+    display: inline-block;
+}
+.skill {
+    text-align: center
+}
+
+.logo-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px
+}
+.pdfembed {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 1000px;
+    width: 50%;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
