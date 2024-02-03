@@ -37,6 +37,11 @@ h4 {
     color: black;
 }
 
+p {
+    color: black;
+    font-size: 24px;
+}
+
 #portrait {
     float: right;
     display: block;
@@ -135,11 +140,6 @@ h4 {
     width: 50%;
 }
 
-p {
-    color: black;
-    font-size: 24px;
-}
-
 .textbox {
     margin-bottom: 20px;
     width: 30%;
@@ -155,6 +155,6 @@ p {
     margin: 2% 5% 2% 88%;
 }
 
-#star-image {
+.star-image {
     height: 25px;
 }

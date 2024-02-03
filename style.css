@@ -27,6 +27,11 @@ h4 {
     color: white
 }
 
+p {
+    color: white;
+    font-size: 24px;
+}
+
 .header-bar {
     margin: 5px auto;
     padding: 10px 5px;
@@ -102,11 +107,6 @@ h4 {
     width: 50%;
 }
 
-p {
-    color: white;
-    font-size: 24px;
-}
-
 .textbox {
     margin-bottom: 20px;
 }
@@ -120,6 +120,6 @@ p {
     margin: 2% 5% 2% 88%;
 }
 
-#star-image {
+.star-image {
     height: 25px;
 }
