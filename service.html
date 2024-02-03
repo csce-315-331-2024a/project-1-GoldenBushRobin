@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Service</title>
-        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
         <body>
             <h1>Service</h1>
@@ -14,28 +14,28 @@
                 <h2><a href="ai.html">CTF Explained</a></h2>
             </div>
             
-            <h3>Service</h3>
             <div class="section">
-                <h4>Boyscouts</h4>
-                <p>I have participated in community service through BoyScouts, even becoming an Eagle Scout. During my time, I volunteered in a variety of areas, including mulching a playground, cleaning up trails, and volunteering at the local food bank.</p>
-                <img class="section-image" src="boyscouts.png">
+                <h4 class="section-title">Boyscouts</h4>
+                <p class="section-text">I have participated in community service through BoyScouts, even becoming an Eagle Scout. During my time, I volunteered in a variety of areas, including mulching a playground, cleaning up trails, and volunteering at the local food bank.</p>
+                <img class="section-image" src="resources/images/EagleScout.png">
             </div>
             <div class="section">
-                <h4>Church Involvement</h4>
-                <p>I have involved myself in volunteering at my Church for the past few years. I volunteered in the childrens and youth programs. In addition, I plan to volunteer in the future in their summer program this summer.</p>
-                <img class="section-image" src="church.png">
+                <h4 class="section-title">Church Involvement</h4>
+                <p class="section-text">I have involved myself in volunteering at my Church for the past few years. I volunteered in the childrens and youth programs. In addition, I plan to volunteer in the future in their summer program this summer.</p>
+                <img class="section-image" src="resources/images/church.jpg">
             </div>
             <div class="section">
-                <h4>Club Involvement</h4>
-                <p>I am involved in being an officer for a couple of clubs, being part of the problem setting team for the <a href="https://tamuacpc.com/home">Aggie Competitive Programming Club</a>, and being on the Technology Committee for the <a href="https://cybr.club/">Cybersecurity Club.</a></p>
+                <h4 class="section-title">Club Involvement</h4>
+                <p class="section-text">I am involved in being an officer for a couple of clubs, being part of the problem setting team for the <a href="https://tamuacpc.com/home">Aggie Competitive Programming Club</a>, and being on the Technology Committee for the <a href="https://cybr.club/">Cybersecurity Club.</a></p>
                 <img class="section-image-pair" src="resources/images/acpclogo.svg">
                 <img class="section-image-pair" src="resources/images/cybersecclub.png">
             </div>
             
             <div class="section">
-                <h4>Future Plans</h4>
-                <p>In the future, I plan on finding ways to properly utilize my expertise and knowledge in math and computer science to help others.</p>
+                <h4 class="section-title">Future Plans</h4>
+                <p class="section-text">In the future, I plan on finding ways to properly utilize my expertise and knowledge in math and computer science to help others.</p>
             </div>
-            
+            <button id="style-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            <script src="functions.js"></script>
         </body>
 </html>

@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Qualifications</title>
-        <link rel="stylesheet" typ="text/css" href="style.css"></link>
+        <link id="mainStyleSheet" rel="stylesheet" typ="text/css" href="style.css"></link>
     </head>
         <body>
             <h1>Qualifications</h1>
@@ -17,24 +17,26 @@
                 <h3>Skills</h3>
                 <div class="topic">
                     <h4>Cybersecurity</h4>
-                    <p class="skill">Cryptography <img src="fivestars.png" alt="five stars"></p>
-                    <p class="skill">Binary Exploitation <img src="fourstars.png" alt="four stars"></p>
-                    <p class="skill">Forensics <img src="threehalfstars.png" alt="three and a half stars"></p>
-                    <p class="skill">Web Exploitation <img src="threestars.png" alt="three stars"></p>
+                    <p class="skill">Cryptography <img id="star-image" src="resources/images/five-star.png" alt="five stars"></p>
+                    <p class="skill">Binary Exploitation <img id="star-image" src="resources/images/four-star.png" alt="four stars"></p>
+                    <p class="skill">Forensics <img id="star-image" src="resources/images/three-half-star.png" alt="three and a half stars"></p>
+                    <p class="skill">Web Exploitation <img id="star-image" src="resources/images/three-star.png" alt="three stars"></p>
                 </div>
                 <div class="topic">
                     <h4>Mathematics</h4>
-                    <p class="skill">Number Theory <img src="fourhalfstars.png" alt="four and a half stars"></p>
-                    <p class="skill">Combinatorics <img src="threestars.png" alt="three stars"></p>
-                    <p class="skill">Algebra <img src="threestars.png" alt="three stars"></p>
-                    <p class="skill">Geometry <img src="twostars.png" alt="two stars"></p>
+                    <p class="skill">Number Theory <img id="star-image" src="resources/images/four-half-star.png" alt="four and a half stars"></p>
+                    <p class="skill">Combinatorics <img id="star-image" src="resources/images/three-half-star.png" alt="three and a helf stars"></p>
+                    <p class="skill">Algebra <img id="star-image" src="resources/images/three-star.png" alt="three stars"></p>
+                    <p class="skill">Geometry <img id="star-image" src="resources/images/three-star.png" alt="three stars"></p>
                 </div>
                 <div class="topic">
                 <h4>Programming Languages</h4>
-                    <p class="skill">Python <img src="fivestars.png" alt="five stars"></p>
-                    <p class="skill">C/C++ <img src="fourhalfstars.png" alt="four and a half stars"></p>
-                    <p class="skill">Lua <img src="threehalfstars.png" alt="three and a half stars"></p>
-                    <p class="skill">Java <img src="threestars.png" alt="three stars"></p>
+                    <p class="skill">Python <img id="star-image" src="resources/images/five-star.png" alt="five stars"></p>
+                    <p class="skill">C/C++ <img id="star-image" src="resources/images/four-half-star.png" alt="four and a half stars"></p>
+                    <p class="skill">Lua <img id="star-image" src="resources/images/three-half-star.png" alt="three and a half stars"></p>
+                    <p class="skill">Java <img id="star-image" src="resources/images/three-star.png" alt="three stars"></p>
+                    <p class="skill">Pascal<img id="star-image" src="resources/images/three-star.png" alt="three stars"></p>
+                    
                 </div>
             </div>
             
@@ -43,8 +45,10 @@
             <p>My technical area of interest is Cybersecurity, specifically Cryptography and binary exploitation. I often use and practice these topics through CTFs, which are competitive cybersecurity competitions that present isolated problems and techniques.</p>
             </div>
             <div class="section">
-            <a href="resources/resume.pdf"><h3>Resume</h3>
-            <img class="pdfembed" src="resources/images/resume.png"></a>
-            </div>
+            <a href="resources/resume.pdf" target="_blank"><h3>Resume</h3></a>
+            <a href="resources/resume.pdf" target="_blank"><img class="pdfembed" src="resources/images/resume.png">
+            </div></a>
+            <button id="style-button" onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            <script src="functions.js"></script>
         </body>
 </html>
